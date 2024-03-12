@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
-<>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Comienza BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- Finaliza BS -->
+
+
     <link rel="shortcut icon" href="media/logopez.png" type="image/x-icon">
+
+    <!-- Libreria de Iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link CSS -->
     <link rel="stylesheet" href="estilos.css">
     <title>index</title>
+
 </head>
+
 
 <body>
     <header>
@@ -18,7 +29,7 @@
             <ul>
                 <li> <a href="#">Home</a>  </li>
                 <li> <a href="Nosotros.html">  Nosotros</a> </li>
-                <li> <a href="Menu.html">Menú</a> </li>
+                <li> <a href="Pages/Menu.html">Menú</a> </li>
 
                 <li> <a href="Visitanos.html">Contacto</a></li>
 
@@ -50,14 +61,20 @@
 </section>
 
 <h2 id="sec2">Menú</h2>
-<section class="sec sec2">
+<!-- <section>
     <div class="sec sec2">
         <div class="item item3"></div>
         <div class="item item4"></div>
         <div class="item item5"></div>
     </div>
+</section> -->
+<section class="conteiner-fluid">
+    <div class="sec sec2">
+        <div class="item item3 col-4"></div>
+        <div class="item item4 col-4"></div>
+        <div class="item item5 col-4"></div>
+    </div>
 </section>
-
 <h2 id="sec3">Contacto</h2>
 <section class="sec sec3">
     <div class="mapa">
@@ -72,10 +89,10 @@
     </p>
 
     <div class="redes">
-<a href="">
+<a href="https://www.instagram.com/" target="_blank">
     <i class="fa-brands fa-instagram"></i>
 </a>
-<a href="">
+<a href="https://www.facebook.com/" target="_blank">
     <i class="fa-brands fa-facebook"></i>
 </a>
     </div>
@@ -87,5 +104,8 @@
 </a> 
 <a href="#" class="subir">
     <i class="fa-solid fa-chevron-up"></i>
+
+<!-- Link de BOOSTRAP Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
