@@ -1,0 +1,233 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+.entrada {
+  color: black;
+  height: auto;
+  width: 300px;
+  background-color: white;
+  margin: auto;
+  margin-top: 50px;
+  letter-spacing: 5px;
+  font-size: 30px;
+  padding: 10px;
+  vertical-align: middle;
+  padding-top: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.text1 {
+  color: black;
+  font-size: 15px;
+  padding: 0px;
+  letter-spacing: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  margin-left: 0px;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  background-image: url(../Media/entrada.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+}
+
+main {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.sec1 {
+  height: auto;
+  background: white;
+  color: black;
+  text-align: center;
+  padding: 30px;
+  letter-spacing: 10px;
+  margin: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+.sec2 {
+  background-image: url(../Media/PBBebidas.png);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.sec2 {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.sec5 {
+  height: auto;
+  text-align: center;
+  padding-top: 50px;
+  color: black;
+  background-color: white;
+  padding: 100px;
+  vertical-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+.carousel-item {
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  margin-top: 0px;
+}
+
+.mapa {
+  display: flex;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  font-size: 20px;
+}
+
+footer p {
+  margin-bottom: 20px;
+}
+
+.redes a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .entrada {
+    padding-top: 200px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    padding: 40px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .carousel-item {
+    background-position: bottom;
+  }
+}
+.sec7 {
+  height: auto;
+  background: white;
+  color: black;
+  text-align: center;
+  padding: 30px;
+  letter-spacing: 10px;
+  margin-top: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+.sec6 {
+  height: 300px;
+  width: 100%;
+  background-color: black;
+  background-image: url(../Media/PBBebidas.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sec8 {
+  height: 300px;
+  width: 30%;
+  background-color: black;
+  background-image: url(../Media/PBBebidas.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 40px;
+  margin-left: 2%;
+}
+
+.sec9 {
+  height: 300px;
+  width: 30%;
+  background-color: black;
+  background-image: url(../Media/PBsopa.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 40px;
+  margin-left: 2%;
+}
+
+.sec10 {
+  height: 300px;
+  width: 30%;
+  background-color: black;
+  background-image: url(../Media/comida-tailandesa-tom-yum-kung-o-sopa-picante-gambas-rio.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 40px;
+  margin-left: 2%;
+}
+
+.sec11 {
+  background-image: url(../Media/chef-trabajando-juntos-cocina-profesional.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.sec12 {
+  background-image: url(../Media/plato-mariscos-gambas-mejillones-langostas-servidas-limon.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.sec13 {
+  background-image: url(../Media/magdalena10.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.sec14 {
+  background-image: url(../Media/opalos.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}/*# sourceMappingURL=estilos.css.map */
